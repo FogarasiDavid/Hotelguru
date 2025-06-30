@@ -1,0 +1,162 @@
+.reception-container {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fdfdfd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reception-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.reception-header h1 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.logout-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}
+
+.date-picker {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.date-picker label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.date-picker input {
+  padding: 0.4rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 0.3rem;
+}
+
+.summary-box {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.05rem;
+  color: #444;
+}
+
+.reception-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.reception-table th,
+.reception-table td {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.reception-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.reception-table tr:nth-child(even) {
+  background-color: #fbfbfb;
+}
+
+.reception-table button {
+  margin: 0 0.2rem;
+  padding: 0.4rem 0.7rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.reception-table button:hover {
+  opacity: 0.85;
+}
+
+.reception-table button:nth-child(1) {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.reception-table button:nth-child(2) {
+  background-color: #3498db;
+  color: white;
+}
+
+.reception-table button:nth-child(3) {
+  background-color: #9b59b6;
+  color: white;
+}
+
+/* Vendégadat modal */
+.guest-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guest-modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.guest-modal-content h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.guest-modal-content p {
+  margin: 0.4rem 0;
+}
+
+.guest-modal-content button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #34495e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.guest-modal-content button:hover {
+  background-color: #2c3e50;
+}

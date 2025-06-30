@@ -1,0 +1,73 @@
+.guest-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: sans-serif;
+}
+
+.rooms-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+.rooms-table th,
+.rooms-table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.rooms-table tr.selected {
+  background-color: #eef;
+}
+
+.rooms-table button {
+  padding: 0.3rem 0.6rem;
+}
+
+.booking-form {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.booking-form h2 {
+  margin-top: 0;
+}
+
+.booking-form label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.booking-form input {
+  margin-left: 0.5rem;
+}
+
+.booking-form button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.guest-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logout-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.logout-btn:hover {
+  background: #c0392b;
+}
+
+/* A többi stílus marad változatlanul... */
